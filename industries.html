@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Industries</title>
+    
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/sidebar.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	
+	<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+	
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    
+    <script type="text/javascript">
+		$(window).load(function() {
+			$(".loader").fadeOut("slow");
+		})
+	</script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+	<div class="loader"></div>
+	
+	<style>
+	
+	.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+	}
+	
+	</style>
+	
+	<header>
+	
+		<div class="top-heading">
+			<div class="container">
+				<div class="contact-info pull-left">
+					<a href="#"><span class="fa fa-phone"></span>+91-82866-47978</a>
+				</div>
+				<ul class="social-icons pull-right">
+					<li><a href="#" class="icon fa fa-facebook"></a></li>
+					<li><a href="#" class="icon fa fa-twitter"></a></li>
+					<li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+					<li><a href="#" class="icon fa fa fa-google-plus"></a></li>
+				</ul>
+			</div>
+		</div>
+
+        <nav class="navbar-default navbar-static-top" id="navbar-default" style="border-radius:0;">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            		<div class="logo">UniversalProducts</div>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="Products.html" class="tabin">Products</a>
+							<div class="dropdown-content">
+								<a href="Products.html#1">COMPRESSION SPRINGS</a>
+								<a href="Products.html#2">EXTENSION SPRINGS</a>
+								<a href="Products.html#3">TORSION SPRINGS</a>
+								<a href="Products.html#4">HEAVY DUTY SPRINGS</a>
+								<a href="Products.html#5">RECTANGULAR DIE SPRINGS</a>
+								<a href="Products.html#6">WIRE FORMS</a>
+								<a href="Products.html#7">PAWLS</a>
+							</div>
+						</li>
+						<li><a href="about us.html">About us</a></li>
+						<li><a href="industries.html"><span>Industries Served</span></a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<style>
+							.color-box {
+								display: inline-block;
+								/* Make the box inline with the text */
+								padding: 10px;
+								/* Add some padding around the text */
+								background-color: #0074D9;
+								/* Set the background color */
+								color: white;
+								/* Set the text color to white */
+								border: 1px solid #0074D9;
+								/* Add a border to the box */
+								border-radius: 5px;
+								/* Add rounded corners */
+								text-decoration: none;
+								/* Remove the underline from the link */
+							}
+						</style>
+						<li><a href="Universal Products - Catalogue.pdf" target="_blank" class="color-box">Brouchure</a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <style>
+        
+        	.navbar-default {
+        		background: #F5F5F5;
+        	}
+        
+        	.navbar-default .navbar-nav li a {
+        		color: #000;
+        	}
+        	
+        	.navbar-default .navbar-toggle .icon-bar {
+				background: #000;
+			}
+			
+			.navbar-nav {
+				float: right;
+			}
+			
+			@media screen and (max-width: 768px) {
+			.navbar-nav {
+				float: left;
+			}
+			}
+			
+        
+        </style>
+
+        
+    </header>
+    
+    
+    <div class="container">
+    	<ul class="breadcrumb">
+  			<li><a href="index.html">Home</a> <span class="divider">/</span></li>
+  			<li class="active">Services</li>
+		</ul>
+	</div>
+
+	
+   
+    <style>
+		.gallery {
+			margin: 0;
+			/* border: 1px solid #ccc; */
+			float: left;
+		}
+		.gallery img {
+			width: 360px;
+			height: 300px;
+			border: 2px solid #ff3d0036;
+			border-radius: 13px;
+			box-shadow: 4px 7px 7px 0px #00000042;
+			cursor: pointer;
+			margin: 10px;
+			transition: 400ms;
+		}
+		.desc {
+			padding: 18px;
+			text-align: center;
+			font-size: 20px;
+		}
+		div img:hover {
+			/* filter: grayscale(1); */
+			transform: scale(1.03);
+		}
+	</style>
+	<div class="featured-list">
+		<div class="container">
+			<div class="gallery">
+				<img src="images/Industries/Aerospace Engineering 3.jpg" alt="">
+					<div class="desc">Aerospace Engineering</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/istockphoto-114288673-612x612.webp" alt="">
+					<div class="desc">Automobile Industry</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Heavy Engineering Machinery 4.jpg" alt="">
+					<div class="desc">Heavy Engineering Machinery</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Industrial Equipments 3.jpg" alt="">
+					<div class="desc">Industrial Equipments</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Marine Shipping Industry 4.jpg" alt="">
+					<div class="desc">Marine Shipping Industry</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/offshore-industry-oil-gas 4.avif" alt="">
+					<div class="desc">Offshore Oil & Gas</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Petrochemical Industry 3.jpg" alt="">
+					<div class="desc">Petrochemical Industry</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Railroad Industry 3.jpg" alt="">
+					<div class="desc">Railroad Industry</div>
+			</div>	
+			<div class="gallery">
+				<img src="images/Industries/Telecommunication Industry 3.jpg" alt="">
+					<div class="desc">Telecommunication Industry</div>
+			</div>	
+			
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-md-4 col-sm-6">
+				<h3>About Us</h3>
+				<hr>
+				<p>Universal Products: Crafting Quality Springs Since 1987. With over three decades of experience, we're a trusted name in precision spring manufacturing, dedicated to delivering excellence and innovation in every coil we create.</p>
+			</div>
+			<div class="col-md-4 col-sm-6">
+				<h3>Contact Info</h3>
+				<hr>
+				<ul class="contact-list">
+					<li>
+						<p>
+							<i class="fa fa-home"></i>
+							Gala No. 19, Quddus Compound, Opp. MEMCO, Jari Mari, Mumbai - 72
+						</p>
+						<p>
+							<i class="fa fa-phone"></i>
+							82866-47978
+						</p>
+						<p>
+							<i class="fa fa-envelope-o"></i>
+							universalproducts81@gmail.com
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="copyright-part">
+		<p>&copy 2023 <span>UniversalProducts</span> All Rights Reserved</p>
+	</div>
+    
+    
+    <script type="text/javascript">
+    
+      $(document).ready(function(){
+        $('.toggle-menu').jPushMenu({closeOnClickLink: false});
+        $('.dropdown-toggle').dropdown();
+      });
+      
+    </script>
+    
+    
+    <script type="text/javascript">
+    
+    $(function () {
+  		$.scrollUp({
+    		scrollName: 'scrollUp', // Element ID
+    		topDistance: '300', // Distance from top before showing element (px)
+    		topSpeed: 600, // Speed back to top (ms)
+    		animation: 'fade', // Fade, slide, none
+    		animationInSpeed: 200, // Animation in speed (ms)
+    		animationOutSpeed: 200, // Animation out speed (ms)
+    		activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+    		scrollImg: true,
+  		});
+	});
+    
+    </script>
+    
+
+</body>
+
+</html>

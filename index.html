@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+  <!-- Developer: Ketan Sakpal -->
+
+  <head>
+    <title>Homepage</title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jPushMenu.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+
+    <script type="text/javascript">
+      $(window).load(function () {
+        $(".loader").fadeOut("slow");
+      });
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="loader"></div>
+
+    <style>
+      .loader {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: url("images/page-loader.gif") 50% 50% no-repeat
+          rgb(249, 249, 249);
+      }
+    </style>
+
+    <header>
+      <div class="top-heading">
+        <div class="container">
+          <div class="contact-info pull-left">
+            <a href="#"><span class="fa fa-phone"></span>+91-82866-47978</a>
+          </div>
+          <ul class="social-icons pull-right">
+            <li><a href="#" class="icon fa fa-facebook"></a></li>
+            <li><a href="#" class="icon fa fa-twitter"></a></li>
+            <li><a href="#" class="icon fa fa-pinterest-p"></a></li>
+            <li>
+              <a href="https://wa.link/qyh3a9" class="icon fa fa-whatsapp"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <nav
+        class="navbar-default navbar-static-top"
+        id="navbar-default"
+        style="border-radius: 0"
+      >
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle toggle-menu menu-left push-body"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="logo">UniversalProducts</div>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div
+            class="collapse navbar-collapse cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left"
+            id="bs-example-navbar-collapse-1"
+          >
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="index.html"><span>Home</span></a>
+              </li>
+              <li class="dropdown">
+                <a href="Products.html" class="tabin">Products</a>
+                <div class="dropdown-content">
+                  <a href="Products.html#1">COMPRESSION SPRINGS</a>
+                  <a href="Products.html#2">EXTENSION SPRINGS</a>
+                  <a href="Products.html#3">TORSION SPRINGS</a>
+                  <a href="Products.html#4">HEAVY DUTY SPRINGS</a>
+                  <a href="Products.html#5">RECTANGULAR DIE SPRINGS</a>
+                  <a href="Products.html#6">WIRE FORMS</a>
+                  <a href="Products.html#7">PAWLS</a>
+                </div>
+              </li>
+              <li><a href="about us.html">About us</a></li>
+              <li><a href="industries.html">Industries Served</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <style>
+                .color-box {
+                  display: inline-block;
+                  /* Make the box inline with the text */
+                  padding: 10px;
+                  /* Add some padding around the text */
+                  background-color: #0074d9;
+                  /* Set the background color */
+                  color: white;
+                  /* Set the text color to white */
+                  border: 1px solid #0074d9;
+                  /* Add a border to the box */
+                  border-radius: 5px;
+                  /* Add rounded corners */
+                  text-decoration: none;
+                  /* Remove the underline from the link */
+                }
+              </style>
+              <li>
+                <a
+                  href="Universal Products - Catalogue.pdf"
+                  target="_blank"
+                  class="color-box"
+                  >Brouchure</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <style>
+        .navbar-default {
+          background: #f5f5f5;
+        }
+
+        .navbar-default .navbar-nav li a {
+          color: #000;
+        }
+
+        .navbar-default .navbar-toggle .icon-bar {
+          background: #000;
+        }
+
+        .navbar-nav {
+          float: right;
+        }
+
+        @media screen and (max-width: 768px) {
+          .navbar-nav {
+            float: left;
+          }
+        }
+      </style>
+    </header>
+
+    <div class="banner">
+      <div class="opacity_overlay">
+        <div class="info">
+          <h2>A satisfied customer is the best business strategy of all</h2>
+          <hr />
+          <h3>We believe everyone deserves</h3>
+          <h3>The best service</h3>
+        </div>
+
+        <div class="secondary_layer">
+          <div class="container">
+            <div class="col-md-8 col-sm-6">
+              <p class="msg">
+                Universal Products: Crafting Quality Springs Since
+                <span>1987</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services">
+      <div class="container">
+        <h2><span id="rotate"></span></h2>
+        <h3></h3>
+
+        <div class="overview">
+          <div class="col-md-4 col-sm-4">
+            <div class="feature-box">
+              <img
+                src="images/Products/Extension Spring.jpg"
+                class="img-responsive"
+              />
+            </div>
+
+            <div class="feature-body">
+              <h4>Extension Springs</h4>
+              <p>
+                Side Loops -Extended Hooks -TeardropEnds -Threaded Inserts<a
+                  href="Products.html"
+                  class="btn"
+                  ><button type="button">know more</button></a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="feature-box">
+              <img
+                src="images/Products/Compression Spring.jpg"
+                class="img-responsive"
+              />
+            </div>
+
+            <div class="feature-body">
+              <h4>Compression Springs</h4>
+              <p>
+                Side Loops -Extended Hooks -TeardropEnds -Threaded Inserts<a
+                  href="Products.html"
+                  class="btn"
+                  ><button type="button">know more</button></a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4">
+            <div class="feature-box">
+              <img
+                src="images/Products/Rectangular Die Spring.jpg"
+                class="img-responsive"
+              />
+            </div>
+
+            <div class="feature-body">
+              <h4>Rectangular Die Springs</h4>
+              <p>
+                Cylindrical -Helical -Compression -Closed Ends -Open Ends
+                -Ground Ends
+                <a href="Products.html" class="btn"
+                  ><button type="button">know more</button></a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="scroller">
+        <div id="scroller-in">
+          <h4>COMPRESSION SPRINGS</h4>
+          <h4>EXTENSION SPRINGS</h4>
+          <h4>TORSION SPRINGS</h4>
+          <h4>HEAVY DUTY SPRINGS</h4>
+          <h4>RECTANGULAR DIE SPRINGS</h4>
+          <h4>WIRE FORMS</h4>
+          <h4>PAWLS</h4>
+        </div>
+        <div id="scroller-in">
+          <h4>COMPRESSION SPRINGS</h4>
+          <h4>EXTENSION SPRINGS</h4>
+          <h4>TORSION SPRINGS</h4>
+          <h4>HEAVY DUTY SPRINGS</h4>
+          <h4>RECTANGULAR DIE SPRINGS</h4>
+          <h4>WIRE FORMS</h4>
+          <h4>PAWLS</h4>
+        </div>
+      </div>
+
+      <div class="Products">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="carousel slide Products-carousel"
+                id="Products-slider"
+              >
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/5.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/2.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/3.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/10.jpeg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="row">
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/4.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/6.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/7.jpeg" alt="" />
+                        </a>
+                      </div>
+                      <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a class="thumbnail" href="#">
+                          <img src="images/Products/9.jpeg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="more-information">
+        <div class="container">
+          <div class="col-md-6">
+            <div class="sides">
+              <h4>Why Choose Us</h4>
+              <hr />
+              <p>
+                Universal Products where experience meets excellence. Our
+                decades of expertise guarantee top-quality springs tailored to
+                your specifications. We offer unmatched precision, durability,
+                and customer satisfaction. Join our legacy of satisfied clients
+                and experience the Universal Product advantage today.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="sides">
+              <h4>What We Will Do</h4>
+              <hr />
+              <p>
+                At Universal Product, we leverage our 35 years of experience to
+                craft precision-engineered springs for your unique needs. Our
+                commitment includes delivering unparalleled quality,
+                personalized solutions, on-time delivery, and exceptional
+                customer support. Trust us to be your trusted partner in spring
+                manufacturing excellence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="col-md-4 col-sm-6">
+          <h3>About Us</h3>
+          <hr />
+          <p>
+            Universal Products: Crafting Quality Springs Since 1987. With over
+            three decades of experience, we're a trusted name in precision
+            spring manufacturing, dedicated to delivering excellence and
+            innovation in every coil we create.
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <h3>Contact Info</h3>
+          <hr />
+          <ul class="contact-list">
+            <li>
+              <p>
+                <i class="fa fa-home"></i>
+                Gala No. 19, Quddus Compound, Opp. MEMCO, Jari Mari, Mumbai -
+                72.
+              </p>
+              <p>
+                <i class="fa fa-phone"></i>
+                +91-82866-47978
+              </p>
+              <p>
+                <i class="fa fa-envelope-o"></i>
+                universalproducts81@gmail.com
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright-part">
+      <p>&copy 2023 <span>UniversalProducts</span> All Rights Reserved</p>
+    </div>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".toggle-menu").jPushMenu({ closeOnClickLink: false });
+        $(".dropdown-toggle").dropdown();
+      });
+    </script>
+
+    <script type="text/javascript">
+      var terms = ["Universal", "Products", "UniversalProducts"];
+
+      function rotateTerm() {
+        var ct = $("#rotate").data("term") || 0;
+        $("#rotate")
+          .data("term", ct == terms.length - 1 ? 0 : ct + 1)
+          .text(terms[ct])
+          .fadeIn()
+          .delay(1000)
+          .fadeOut(200, rotateTerm);
+      }
+      $(rotateTerm);
+    </script>
+
+    <script type="text/javascript">
+      jQuery(".counter-item").appear(function () {
+        jQuery(".counter-number").countTo();
+        jQuery(this).addClass("funcionando");
+        console.log("funcionando");
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#Products-slider").carousel({
+          interval: 5000, //TIME IN MILLI SECONDS
+        });
+      });
+    </script>
+
+    <script type="text/javascript">
+      $(function () {
+        $.scrollUp({
+          scrollName: "scrollUp", // Element ID
+          topDistance: "300", // Distance from top before showing element (px)
+          topSpeed: 600, // Speed back to top (ms)
+          animation: "fade", // Fade, slide, none
+          animationInSpeed: 200, // Animation in speed (ms)
+          animationOutSpeed: 200, // Animation out speed (ms)
+          activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
+          scrollImg: true,
+        });
+      });
+    </script>
+  </body>
+</html>
